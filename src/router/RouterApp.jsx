@@ -5,6 +5,11 @@ import InvestStratPage from "../pages/InvestStratPage.jsx";
 import AboutPage from "../pages/AboutPage.jsx";
 import StockMarketPage from "../pages/StockMarketPage.jsx";
 import CapitalPage from "../pages/CapitalPage.jsx";
+import InterairPorts from "../pages/InterairPorts.jsx";
+import MarketInsight from "../pages/MarketInsight.jsx";
+import PotentialPage from "../pages/PotentialPage.jsx";
+import ContactUsPage from "../pages/ContactUsPage.jsx";
+
 export default function RouterApp() {
   return (
     <Routes>
@@ -13,6 +18,10 @@ export default function RouterApp() {
       <Route path="/about" element={<AboutPage />} />
       <Route path="/stockmarket" element={<StockMarketPage />} />
       <Route path="/capitalallocations" element={<CapitalPage />} />
+      <Route path="/internationaloptions" element={<InterairPorts />} />
+      <Route path="/marketinsight" element={<MarketInsight />} />
+      <Route path="/potential" element={<PotentialPage />} />
+      <Route path="/contactus" element={<ContactUsPage />} />
     </Routes>
   );
 }

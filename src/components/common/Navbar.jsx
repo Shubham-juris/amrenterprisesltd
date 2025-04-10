@@ -67,19 +67,19 @@ const Navbar = () => {
                   Capital Allocations
                 </Link>
                 <Link
-                  to="/international-options"
+                  to="/internationaloptions"
                   className="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-100"
                 >
                   International options
                 </Link>
                 <Link
-                  to="/market-insight"
+                  to="/marketinsight"
                   className="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-100"
                 >
                   Market Insight
                 </Link>
                 <Link
-                  to="/potential-partnership"
+                  to="/potential"
                   className="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-100"
                 >
                   Potential partnership
@@ -95,7 +95,7 @@ const Navbar = () => {
             Stock Market
           </Link>
           <Link
-            to="/contact-us"
+            to="/contactus"
             className="text-sm font-medium hover:text-blue-400"
           >
             Contact Us
