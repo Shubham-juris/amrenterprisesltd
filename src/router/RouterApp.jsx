@@ -9,6 +9,7 @@ import InterairPorts from "../pages/InterairPorts.jsx";
 import MarketInsight from "../pages/MarketInsight.jsx";
 import PotentialPage from "../pages/PotentialPage.jsx";
 import ContactUsPage from "../pages/ContactUsPage.jsx";
+import CarrerPage from "../pages/CarrerPage.jsx";
 
 export default function RouterApp() {
   return (
@@ -22,6 +23,7 @@ export default function RouterApp() {
       <Route path="/marketinsight" element={<MarketInsight />} />
       <Route path="/potential" element={<PotentialPage />} />
       <Route path="/contactus" element={<ContactUsPage />} />
+      <Route path="/careers" element={<CarrerPage />} />
     </Routes>
   );
 }
