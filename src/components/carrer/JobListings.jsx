@@ -260,7 +260,7 @@ const jobPosts = [
 ];
 
 const JobCard = ({ job }) => (
-  <div className="bg-black text-white border-t border-gray-700 py-12 px-8 md:px-12 mb-14">
+  <div className="bg-black text-white border-b border-gray-700 py-12 px-8 md:px-12 mb-14">
     <div className="md:flex md:justify-between">
       {/* Job Info */}
       <div className="md:w-1/2 space-y-8">

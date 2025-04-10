@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
+import logo from "../../assets/home/logo.webp";
+
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isSolutionsOpen, setIsSolutionsOpen] = useState(false);
@@ -11,9 +13,11 @@ const Navbar = () => {
         {/* Logo */}
         <div className="flex items-center space-x-2">
           <Link to="/" className="flex items-center">
-            <span className="text-xl font-bold text-white">
-              Amayra Enterprises
-            </span>
+            <img
+              src={logo}
+              alt="home"
+              style={{ width: "5rem", height: "4rem", marginLeft: "1rem" }}
+            />
           </Link>
         </div>
 
