@@ -11,6 +11,7 @@ import PotentialPage from "../pages/PotentialPage.jsx";
 import ContactUsPage from "../pages/ContactUsPage.jsx";
 import CarrerPage from "../pages/CarrerPage.jsx";
 
+
 export default function RouterApp() {
   return (
     <Routes>
