@@ -1,4 +1,3 @@
-import PontentialAbout from "../components/solution/potential/PotentIalAbout";
 import PotentialHeader from "../components/solution/potential/PotentialHeader";
 import PontentialOther from "../components/solution/potential/PotentialOther";
 import PotentialPartner from "../components/solution/potential/PotentialPartner";
@@ -9,7 +8,6 @@ export default function PotentialPage() {
     <div className="max-w-[1240px] m-auto">
       <PotentialHeader />
       <PontentialWithUs />
-      <PontentialAbout />
       <PontentialOther />
       <PotentialPartner />
     </div>
