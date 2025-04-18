@@ -16,14 +16,14 @@ export default function RouterApp() {
   return (
     <Routes>
       <Route path="/" element={<HomePage />} />
-      <Route path="/investmentstrategies" element={<InvestStratPage />} />
+      <Route path="/investment-strategies" element={<InvestStratPage />} />
       <Route path="/about" element={<AboutPage />} />
       <Route path="/stockmarket" element={<StockMarketPage />} />
-      <Route path="/capitalallocations" element={<CapitalPage />} />
-      <Route path="/internationaloptions" element={<InterairPorts />} />
-      <Route path="/marketinsight" element={<MarketInsight />} />
+      <Route path="/capitalal-locations" element={<CapitalPage />} />
+      <Route path="/international-options" element={<InterairPorts />} />
+      <Route path="/market-insight" element={<MarketInsight />} />
       <Route path="/potential" element={<PotentialPage />} />
-      <Route path="/contactus" element={<ContactUsPage />} />
+      <Route path="/contact-us" element={<ContactUsPage />} />
       <Route path="/careers" element={<CarrerPage />} />
     </Routes>
   );

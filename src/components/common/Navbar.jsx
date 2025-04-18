@@ -22,7 +22,7 @@ const Navbar = () => {
         </div>
 
         {/* Desktop Navigation */}
-        <div className="hidden items-center space-x-8 md:flex">
+        <div className="hidden items-center space-x-8 lg:flex">
           <Link to="/" className="text-sm font-medium hover:text-blue-400">
             Home
           </Link>
@@ -113,7 +113,7 @@ const Navbar = () => {
         </div>
 
         {/* Mobile menu button */}
-        <div className="flex md:hidden">
+        <div className="flex lg:hidden">
           <button
             type="button"
             className="text-white hover:text-blue-400"
@@ -157,7 +157,7 @@ const Navbar = () => {
 
       {/* Mobile Navigation */}
       {isMenuOpen && (
-        <div className="md:hidden">
+        <div className="lg:hidden">
           <div className="space-y-1 bg-black px-4 pb-3 pt-2">
             <Link
               to="/"
@@ -180,10 +180,10 @@ const Navbar = () => {
 
             {/* Solutions in mobile */}
             <button
-              className="flex w-full items-center justify-between py-2 text-sm font-medium text-white hover:text-blue-400"
+              className="flex w-full items-center justify-start py-2 text-sm font-medium text-white hover:text-blue-400"
               onClick={() => setIsSolutionsOpen(!isSolutionsOpen)}
             >
-              <span>Solutions</span>
+              <span>Solutions </span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className={`h-4 w-4 transition-transform duration-200 ${
