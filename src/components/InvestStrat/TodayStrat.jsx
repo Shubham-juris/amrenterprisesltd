@@ -15,7 +15,7 @@ export default function TodayStrat() {
     },
   ];
   return (
-    <section className="bg-black text-white px-6 md:px-20 py-12 space-y-10">
+    <section className="bg-black text-white px-4 py-4 md:px-6 md:py-6 lg:px-10 lg:py-10  space-y-10">
       {/* Heading */}
       <div className="border-b border-gray-600 pb-4">
         <h2 className="text-xl md:text-2xl font-semibold uppercase">

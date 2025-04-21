@@ -27,7 +27,7 @@ const Navbar = () => {
             Home
           </Link>
           <Link
-            to="/investmentstrategies"
+            to="/investment-strategies"
             className="text-sm font-medium hover:text-blue-400"
           >
             Investment Strategies
@@ -65,19 +65,19 @@ const Navbar = () => {
                 onClick={() => setIsSolutionsOpen(!isSolutionsOpen)}
               >
                 <Link
-                  to="/capitalallocations"
+                  to="/capitalal-locations"
                   className="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-100"
                 >
                   Capital Allocations
                 </Link>
                 <Link
-                  to="/internationaloptions"
+                  to="/international-options"
                   className="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-100"
                 >
                   International options
                 </Link>
                 <Link
-                  to="/marketinsight"
+                  to="/market-insight"
                   className="block px-4 py-2 text-sm text-gray-800 hover:bg-gray-100"
                 >
                   Market Insight
@@ -93,13 +93,13 @@ const Navbar = () => {
           </div>
 
           <Link
-            to="/stockmarket"
+            to="/stock-market"
             className="text-sm font-medium hover:text-blue-400"
           >
             Stock Market
           </Link>
           <Link
-            to="/contactus"
+            to="/contact-us"
             className="text-sm font-medium hover:text-blue-400"
           >
             Contact Us
@@ -230,7 +230,7 @@ const Navbar = () => {
             )}
 
             <Link
-              to="/stockmarket"
+              to="/stock-market"
               className="block py-2 text-sm font-medium text-white hover:text-blue-400"
             >
               Stock Market

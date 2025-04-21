@@ -2,7 +2,7 @@ export default function Footer() {
   const currentDate = new Date();
   let currentYear = currentDate.getFullYear();
   return (
-    <div className=" pb-12 flex flex-col md:flex-row justify-evenly items-center bg-black text-white p-4 space-y-4 md:space-y-0">
+    <div className=" pb-12 flex flex-col md:flex-row justify-center mx-auto gap-[5%] items-center bg-black text-white p-4 space-y-4 md:space-y-0">
       <p className="text-center md:text-left">
         Copyright © 2021 Amayra Enterprises - All Rights Reserved.
       </p>

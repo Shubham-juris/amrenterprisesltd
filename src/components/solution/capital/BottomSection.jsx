@@ -4,7 +4,9 @@ import { FaFacebook, FaInstagram } from "react-icons/fa";
 
 export default function BottomSection() {
   return (
-    <div className="bg-black text-white py-10 px-4 md:px-16">
+    
+    <div className="bg-black text-white py-10 ">
+      <div className="mx-auto flex justify-center flex-col max-w-7xl">
       <div className="mb-10">
         <h2 className="text-2xl font-semibold uppercase border-b border-gray-700 pb-2">
           Instagram
@@ -38,6 +40,8 @@ export default function BottomSection() {
           </a>
         </div>
       </div>
+      </div>
+      
     </div>
   );
 }

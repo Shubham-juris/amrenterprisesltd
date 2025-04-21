@@ -2,9 +2,9 @@ import img from "../../assets/stockmarket/market.jpg";
 
 export default function MarketAnalysis() {
   return (
-    <div className="bg-black text-white py-12 px-4 md:px-16">
+    <div className="bg-black text-white flex flex-col justify-center mx-auto max-w-7xl py-12 px-4 md:px-16">
       {/* Section 1: Market Analysis */}
-      <h3 className="text-3xl font-bold uppercase mb-2 border-b border-gray-600 pb-8 mb-8">
+      <h3 className="text-3xl font-bold uppercase  border-b border-gray-600 pb-8 mb-8">
         Market Analysis
       </h3>
       <div className="flex flex-col md:flex-row items-center gap-6 mb-12">
