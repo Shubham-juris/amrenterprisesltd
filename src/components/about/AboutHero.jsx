@@ -7,7 +7,7 @@ const AboutHero = () => {
       <div className="grid md:grid-cols-2 items-center gap-10">
         {/* Left Image */}
         <div>
-          <img src={img} alt="Welcome" className=" shadow-md w-full h-[45vh]" />
+          <img src={img} alt="Welcome" className="object-cover shadow-md w-full h-[45vh]" />
         </div>
 
         {/* Right Content */}

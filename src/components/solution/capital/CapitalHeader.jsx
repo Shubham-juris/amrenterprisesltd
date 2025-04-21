@@ -2,7 +2,7 @@ import header_img from "../../../assets/solution/capital/header.jpg";
 
 export default function CapitalHeader() {
   return (
-    <div className="max-w-[1240px] mx-auto bg-black text-white p-4">
+    <div className="max-w-7xl mx-auto bg-black text-white py-4">
       <h1 className="text-2xl font-bold border-b-2 border-white pb-5 mb-5">
         Capital Allocation
       </h1>

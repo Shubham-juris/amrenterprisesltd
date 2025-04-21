@@ -18,7 +18,7 @@ export default function RouterApp() {
       <Route path="/" element={<HomePage />} />
       <Route path="/investment-strategies" element={<InvestStratPage />} />
       <Route path="/about" element={<AboutPage />} />
-      <Route path="/stockmarket" element={<StockMarketPage />} />
+      <Route path="/stock-market" element={<StockMarketPage />} />
       <Route path="/capitalal-locations" element={<CapitalPage />} />
       <Route path="/international-options" element={<InterairPorts />} />
       <Route path="/market-insight" element={<MarketInsight />} />

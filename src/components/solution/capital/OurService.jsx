@@ -28,7 +28,7 @@ const services = [
 
 export default function OurService() {
   return (
-    <div className="bg-black max-w-[1240px] mx-auto text-white py-12 px-4 md:px-16">
+    <div className="bg-black max-w-7xl mx-auto   text-white  px-4 py-4 md:px-6 md:py-6 lg:px-10 lg:py-10 ">
       <h2 className="text-2xl font-semibold uppercase mb-8 border-b border-gray-700 pb-2">
         Our Services
       </h2>
