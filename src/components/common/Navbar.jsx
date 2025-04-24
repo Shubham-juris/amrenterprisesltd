@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
-import logo from "../../assets/home/logo.webp";
+import logo from "../../assets/logo.webp";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -16,7 +16,7 @@ const Navbar = () => {
             <img
               src={logo}
               alt="home"
-              style={{ width: "5rem", height: "4rem", marginLeft: "1rem" }}
+              style={{ width: "6rem", height: "6rem", marginLeft: "1rem" }}
             />
           </Link>
         </div>
